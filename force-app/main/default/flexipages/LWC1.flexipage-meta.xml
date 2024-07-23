@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <FlexiPage xmlns="http://soap.sforce.com/2006/04/metadata">
     <flexiPageRegions>
         <itemInstances>
@@ -36,20 +36,20 @@
     <flexiPageRegions>
         <itemInstances>
             <componentInstance>
-                <componentName>parentComponent</componentName>
-                <identifier>c_parentComponent</identifier>
+                <componentName>parentComponent1</componentName>
+                <identifier>c_parentComponent1</identifier>
             </componentInstance>
         </itemInstances>
         <itemInstances>
             <componentInstance>
-                <componentName>parentConponent2</componentName>
-                <identifier>c_parentConponent2</identifier>
+                <componentName>parentComponent2</componentName>
+                <identifier>c_parentComponent2</identifier>
             </componentInstance>
         </itemInstances>
         <itemInstances>
             <componentInstance>
-                <componentName>parentConponent3</componentName>
-                <identifier>c_parentConponent3</identifier>
+                <componentName>parentComponent3</componentName>
+                <identifier>c_parentComponent3</identifier>
             </componentInstance>
         </itemInstances>
         <name>leftcol</name>

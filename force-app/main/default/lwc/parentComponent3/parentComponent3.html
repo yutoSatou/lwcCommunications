@@ -1,0 +1,37 @@
+<template>
+  <lightning-card title="親から孫に">
+    <div class="slds-text-heading_medium slds-var-m-left_small">
+      パブリックプロパティ
+    </div>
+    <div class="slds-grid slds-gutters">
+      <div class="slds-col">
+        <lightning-input
+          class="slds-var-m-around_small"
+          type="text"
+          label="親のInput"
+          value={parentValueProp}
+          onchange={handlePropInputChange}
+        ></lightning-input>
+      </div>
+      <div class="slds-col">
+        <c-child-prop-component3 child-value={parentValueProp}></c-child-prop-component3>
+      </div>
+    </div>
+    <div class="slds-text-heading_medium slds-var-m-left_small">
+      パブリックメソッド
+    </div>
+    <div class="slds-grid slds-gutters">
+      <div class="slds-col">
+        <lightning-input
+          class="slds-var-m-around_small"
+          type="text"
+          label="親のInput"
+          onchange={handleMethInputChange}
+        ></lightning-input>
+      </div>
+      <div class="slds-col">
+        <c-child-method-component3></c-child-method-component3>
+      </div>
+    </div>
+  </lightning-card>
+</template>
