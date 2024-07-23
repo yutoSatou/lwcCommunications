@@ -2,7 +2,7 @@ import { LightningElement } from 'lwc';
 import { loadStyle } from 'lightning/platformResourceLoader';
 import ligtningCardCss from '@salesforce/resourceUrl/lightningCard';
 
-export default class ParentComponent extends LightningElement {
+export default class ParentConponent3 extends LightningElement {
   parentValueProp = '';
 
   connectedCallback() {
@@ -15,7 +15,7 @@ export default class ParentComponent extends LightningElement {
 
   handleMethInputChange(event) {
     this.template
-      .querySelector('c-child-method-component')
-      .setValue(event.detail.value);
+      .querySelector('c-child-method-component2')
+      .setChildValue(event.detail.value);
   }
 }

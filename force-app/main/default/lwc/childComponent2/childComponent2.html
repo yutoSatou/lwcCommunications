@@ -1,0 +1,15 @@
+<template>
+  <div
+    style="background-color: palegoldenrod"
+    class="slds-var-m-right_small slds-var-p-bottom_small"
+  >
+    <lightning-input
+      class="slds-var-m-around_small"
+      type="text"
+      label="親のInputを子で受信"
+      value={childValue}
+      read-only
+    ></lightning-input>
+    <c-grand-child-component grand-child-value={childValue}></c-grand-child-component>
+  </div>
+</template>
