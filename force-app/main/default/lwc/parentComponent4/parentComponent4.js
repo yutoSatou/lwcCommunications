@@ -2,8 +2,9 @@ import { LightningElement } from 'lwc';
 import { loadStyle } from 'lightning/platformResourceLoader';
 import ligtningCardCss from '@salesforce/resourceUrl/lightningCard';
 
-export default class ParentComponent2 extends LightningElement {
-  childValue = '';
+export default class ParentComponent4 extends LightningElement {
+  parentValue = '';
+  parentValueBubble = '';
 
   connectedCallback() {
     loadStyle(this, ligtningCardCss);
@@ -11,6 +12,11 @@ export default class ParentComponent2 extends LightningElement {
 
   handleChange(event) {
     console.log('親のハンドラー');
-    this.childValue = event.detail.value;
+    this.parentValue = event.detail.value;
+  }
+
+  handleChangeBubble(event) {
+    console.log('親のハンドラー(バブリング)');
+    this.parentValueBubble = event.detail.value;
   }
 }

@@ -1,0 +1,17 @@
+<template>
+  <div
+    style="background-color: palegoldenrod"
+    class="slds-var-p-bottom_small slds-var-m-right_small slds-var-p-left_small"
+  >
+    <lightning-input
+      class="slds-var-m-around_small"
+      type="text"
+      label="子から親にイベントで伝達"
+      value={childValue}
+      read-only
+    ></lightning-input>
+    <c-grand-child-event-component-bubbling4
+      ongrandchildchangebubble={handleChange}
+    ></c-grand-child-event-component-bubbling4>
+  </div>
+</template>

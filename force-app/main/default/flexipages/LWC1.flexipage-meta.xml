@@ -52,10 +52,28 @@
                 <identifier>c_parentComponent3</identifier>
             </componentInstance>
         </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentName>parentComponent4</componentName>
+                <identifier>c_parentComponent4</identifier>
+            </componentInstance>
+        </itemInstances>
         <name>leftcol</name>
         <type>Region</type>
     </flexiPageRegions>
     <flexiPageRegions>
+        <itemInstances>
+            <componentInstance>
+                <componentName>publisher</componentName>
+                <identifier>c_publisher</identifier>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentName>subscribe</componentName>
+                <identifier>c_subscribe</identifier>
+            </componentInstance>
+        </itemInstances>
         <name>rightcol</name>
         <type>Region</type>
     </flexiPageRegions>
